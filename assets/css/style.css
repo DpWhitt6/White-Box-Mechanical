@@ -115,32 +115,26 @@ nav {
 }
 
 main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    /* Enable flex properties for child elements */
-    min-height: ;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  /* Add margin at the top to prevent content from being covered by the header */
+  margin-top: 100px;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
 }
 
 
 footer {
-    margin-top: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: #48688d;
-    width: 100%;
-    z-index: 99;
-}
-
-#address {
-    font-size: 85%;
-    color: #cfcccc;
-    text-align: center;
-}
-
-#address #socials{
     text-align: center;
     padding: 20px 0;
     display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
-    font-size: 160%;
+    background-color: #48688d;
+}
+
+footer h4{    
+    color: #cfcccc;
+    font-size: large;
 }
