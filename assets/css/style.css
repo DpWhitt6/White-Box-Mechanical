@@ -119,9 +119,154 @@ main {
   flex: 1 0 auto;
   /* Add margin at the top to prevent content from being covered by the header */
   margin-top: 100px;
-  /* Enable flex properties for child elements */
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  align-content: space-between;
+}
+
+#background-index{
+    height: auto;
+    background: fixed;
+    background-image: url("../images/Crane-lift-supervised-altered-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
+#heading {
+    height: 250px;
+    width: 100%;
+}
+
+#cover-text {
+    background-color: #cfcccc;
+    opacity: 0.8;
+    bottom: 50px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text h1 {
+    font-size: 200%;
+}
+
+
+.services {
+    width: 100%;
+    text-align: start;
+    color: #cfcccc;
+    padding: 20px 10px 20px 10px;
+    background-color: #48688d;
+    opacity: .9;
+}
+
+#services-multi {
+    display: grid;
+    /*stackoverflow https://stackoverflow.com/questions/8184958/add-space-between-html-elements-only-using-css*/
+    grid-gap: 20px;
+    padding: 200px 70px 25px 70px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 25%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 25%;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 25%;
+    border: 2px solid;
+}
+
+.flip-card-front {
+    padding-top: 50px;
+    background-color: #cfcccc;
+    color: #48688d;
+    border-color: #48688d;
+    box-shadow: 5px 5px #48688d;
+    opacity: .85;
+}
+
+.flip-card-back {
+    padding: 25px;
+    background-color: #48688d;
+    color: #cfcccc;
+    transform: rotateY(180deg);
+    border-color: #cfcccc;
+    box-shadow: 5px 5px #cfcccc;
+}
+
+.flip-card1 {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 25%;
+}
+
+.flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 25%;
+}
+
+.flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front1,
+.flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 25%;
+    border: 2px solid;
+}
+
+.flip-card-front1 {
+    padding-top: 50px;
+    background-color: #48688d;
+    color: #cfcccc;
+    border-color: #cfcccc;
+    box-shadow: 5px 5px #cfcccc;
+    opacity: .85;
+}
+
+.flip-card-back1 {
+    padding: 25px;
+    background-color: #cfcccc;
+    color: #48688d;
+    transform: rotateY(180deg);
+    border-color: #48688d;
+    box-shadow: 5px 5px #48688d;
 }
 
 
