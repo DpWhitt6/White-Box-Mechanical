@@ -115,15 +115,15 @@ nav {
 }
 
 main {
-  /* Make main element take up any surplus space to push footer down */
-  flex: 1 0 auto;
-  /* Add margin at the top to prevent content from being covered by the header */
-  margin-top: 100px;
-  width: 100%;
-  align-content: space-between;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 100px;
+    width: 100%;
+    align-content: space-between;
 }
 
-#background-index{
+#background-index {
     height: auto;
     background: fixed;
     background-image: url("../images/Crane-lift-supervised-altered-3.jpg");
@@ -131,6 +131,7 @@ main {
     background-repeat: no-repeat;
     background-size: 200vh;
 }
+
 #heading {
     height: 250px;
     width: 100%;
@@ -161,10 +162,12 @@ main {
 }
 
 #services-multi {
-    display: grid;
-    /*stackoverflow https://stackoverflow.com/questions/8184958/add-space-between-html-elements-only-using-css*/
     grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding: 200px 70px 25px 70px;
+    justify-content: center;
 }
 
 .flip-card {
@@ -279,7 +282,55 @@ footer {
     background-color: #48688d;
 }
 
-footer h4{    
+footer h4 {
     color: #cfcccc;
     font-size: large;
+}
+
+/*media query: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+
+
+    #menu {
+        font-size: 150%;
+    }
+
+    #cover-text h1 {
+        font-size: 250%;
+    }
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #cover-text h1 {
+        font-size: 300%;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    #background-index {
+        background-size: 110vw;
+    }
+
+    #cover-text h1 {
+        font-size: 350%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    #background-index {
+        background-size: 120vw;
+    }
+
+    #cover-text h1 {
+        font-size: 400%;
+    }
 }
