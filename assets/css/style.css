@@ -272,6 +272,52 @@ main {
     box-shadow: 5px 5px #48688d;
 }
 
+#about-us-background{
+    background: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image: url(../images/IMG-7085-altered.jpg);
+    background-size: 75vh;
+}
+
+.about-us{
+    font-size: 300%;
+    background-color: #48688d;
+    color: #cfcccc;
+    padding: 25px;
+}
+.info-1{
+    margin-top: 350px;
+    padding: 25px;
+    width: 100%;
+    height: 200px;
+    background: #cfcccc;
+    color: #48688d;
+}
+
+.info-2{
+    margin-top: 190px;
+    padding: 25px;
+    width: 100%;
+    height: 200px;
+    background: #a0b1c1;
+    color: white;
+}
+
+.info-3{
+    margin-top: 190px;
+    padding: 25px;
+    width: 100%;
+    height: 200px;
+    background: #48688d;
+    color: #cfcccc;
+    margin-bottom: 350px;
+}
 
 footer {
     text-align: center;
