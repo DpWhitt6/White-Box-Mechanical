@@ -295,8 +295,12 @@ main {
     font-size: 300%;
     background-color: #48688d;
     color: #cfcccc;
-    padding: 25px;
     opacity: 0.8;
+    bottom: 50px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 .info-1 {
@@ -360,8 +364,12 @@ main {
     font-size: 300%;
     background-color: #a0b1c1;
     color: white;
-    padding: 25px;
-    opacity: 0.8;  
+    opacity: 0.8;
+    bottom: 50px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 #contact-us{
