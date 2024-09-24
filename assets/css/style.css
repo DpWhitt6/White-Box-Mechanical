@@ -30,7 +30,7 @@ h3 {
     font-size: large;
 }
 
-h1 em{
+h1 em {
     font-weight: 900;
 }
 
@@ -276,7 +276,7 @@ main {
     box-shadow: 5px 5px #48688d;
 }
 
-#about-us-background{
+#about-us-background {
     background: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -284,43 +284,57 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     background-image: url(../images/IMG-7085-altered.jpg);
     background-size: 75vh;
+    background-color: #48688d;
 }
 
-.about-us{
+.about-us {
     font-size: 300%;
     background-color: #48688d;
     color: #cfcccc;
     padding: 25px;
 }
-.info-1{
+
+.info-1 {
     margin-top: 350px;
     padding: 25px;
-    width: 100%;
+    width: 80%;
     height: 200px;
     background: #cfcccc;
     color: #48688d;
+    border: 2px #48688d;
+    border-radius: 25%;
+    margin-left: 10%;
+    box-shadow: 5px 5px #48688d;
 }
 
-.info-2{
+.info-2 {
     margin-top: 190px;
     padding: 25px;
-    width: 100%;
+    width: 80%;
     height: 200px;
     background: #a0b1c1;
     color: white;
+    border: 2px white;
+    border-radius: 25%;
+    margin-left: 10%;
+    box-shadow: 5px 5px white;
 }
 
-.info-3{
+.info-3 {
     margin-top: 190px;
     padding: 25px;
-    width: 100%;
+    width: 80%;
     height: 200px;
     background: #48688d;
     color: #cfcccc;
     margin-bottom: 350px;
+    border: 2px #cfcccc;
+    border-radius: 25%;
+    margin-left: 10%;
+    box-shadow: 5px 5px #cfcccc;
 }
 
 footer {
@@ -348,6 +362,10 @@ footer h4 {
     #cover-text h1 {
         font-size: 250%;
     }
+
+    #about-us-background {
+        background-size: 105vh;
+    }
 }
 
 
@@ -371,6 +389,10 @@ footer h4 {
         font-size: 350%;
     }
 
+    #about-us-background {
+        background-size: 145vh;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -382,5 +404,9 @@ footer h4 {
 
     #cover-text h1 {
         font-size: 400%;
+    }
+    
+    #about-us-background {
+        background-size: 185vh;
     }
 }
