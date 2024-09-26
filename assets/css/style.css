@@ -36,6 +36,7 @@ h1 strong {
 }
 
 p {
+    padding-top: 5px;
     font-size: medium;
 }
 
@@ -323,10 +324,10 @@ main {
     height: xxx;
     overflow: hidden;
     background: #a0b1c1;
-    color: white;
-    border: 2px white;
+    color: black;
+    border: 2px black;
     margin-left: 10%;
-    box-shadow: 5px 5px white;
+    box-shadow: 5px 5px black;
 }
 
 .info-3 {
@@ -392,7 +393,7 @@ main {
     height: 25px;
     margin: 5px 0 20px 0;
     border-radius: 2px;   
-    padding: 0 5px;
+    padding: 10px 5px;
     height: 475px;
     text-align: center;
     display: flex;
@@ -411,77 +412,6 @@ main {
     background-color: #48688d;
     color: #cfcccc;
 }
-
-/*Sign up*/ 
-/*#signup { Taken from Love Running 
-    background: url('../images/signup-image.webp'); 
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-    /*background-size: cover;
-    background-position: 75%;
-    flex-grow: 1; 
-    height: 800px;
-    width: 100%;
-    padding: 20px 10% 10%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#signup-form {
-    color: #fafafa;
-    background-color: rgba(60,60,60,0.6);
-    padding: 30px;
-}
-
-#signup-form > h2 {
-    color: #fafafa;
-    padding-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa; 
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;   
-    padding: 0 5px;
-
-    /*color: #fafafa;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-}
-
-.radio-buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
-
-    /*border-radius: 2px;
-    background-color: #454b1b;
-    color: #fafafa;
-    font-size: 100%;
-    padding: 15px 32px 15px 32px;
-    top: 20px;
-    bottom: 30px;
-    display: flex;
-    flex-direction: column;
-}*/
 
 footer {
     text-align: center;
