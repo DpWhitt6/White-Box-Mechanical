@@ -153,7 +153,7 @@ main {
 }
 
 #cover-text h1 {
-    font-size: 200%;
+    font-size: 350%;
 }
 
 
@@ -167,11 +167,11 @@ main {
 }
 
 #services-multi {
-    grid-gap: 20px;
+    grid-gap: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 200px 70px 25px 70px;
+    padding: 300px 70px 50px 70px;
     justify-content: center;
 }
 
@@ -307,7 +307,8 @@ main {
     margin-top: 350px;
     padding: 25px;
     width: 80%;
-    height: 200px;
+    height: xxx;
+    overflow: hidden;
     background: #cfcccc;
     color: #48688d;
     border: 2px #48688d;
@@ -319,7 +320,8 @@ main {
     margin-top: 190px;
     padding: 25px;
     width: 80%;
-    height: 200px;
+    height: xxx;
+    overflow: hidden;
     background: #a0b1c1;
     color: white;
     border: 2px white;
@@ -331,7 +333,8 @@ main {
     margin-top: 190px;
     padding: 25px;
     width: 80%;
-    height: 200px;
+    height: xxx;
+    overflow: hidden;
     background: #48688d;
     color: #cfcccc;
     margin-bottom: 350px;
@@ -366,13 +369,15 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    align-self: center;
+    width: 200px;
+    height: 450px;
 }
 
 .contact-us {
     font-size: 300%;
-    background-color: #a0b1c1;
-    color: white;
+    background-color: #48688d;
+    color: #cfcccc;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -382,17 +387,20 @@ main {
 }
 
 #contact-us{
-    color: black; 
+    color: #cfcccc; 
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border-radius: 2px;   
     padding: 0 5px;
-    height: 450px;
+    height: 475px;
     text-align: center;
     display: flex;
     flex-direction: column;
+}
 
+#message{
+ height:150px;
 }
 
 .join-button {
@@ -486,7 +494,7 @@ footer {
 
 footer h4 {
     color: #cfcccc;
-    font-size: large;
+    font-size: medium;
 }
 
 /*media query: large or landscape phones (576px and up)*/
@@ -497,7 +505,7 @@ footer h4 {
         font-size: 150%;
     }
 
-    #cover-text h1 {
+    #cover-text h1, .about-us, .contact-us {
         font-size: 250%;
     }
 
@@ -510,7 +518,7 @@ footer h4 {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    #cover-text h1 {
+    #cover-text h1, .about-us, .contact-us {
         font-size: 300%;
     }
 
@@ -523,7 +531,7 @@ footer h4 {
         background-size: 110vw;
     }
 
-    #cover-text h1 {
+    #cover-text h1, .about-us, .contact-us {
         font-size: 350%;
     }
 
@@ -540,7 +548,7 @@ footer h4 {
         background-size: 120vw;
     }
 
-    #cover-text h1 {
+    #cover-text h1, .about-us, .contact-us {
         font-size: 400%;
     }
     
