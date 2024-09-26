@@ -278,6 +278,14 @@ main {
     box-shadow: 5px 5px #48688d;
 }
 
+.video{
+    padding-top: 60px;
+    padding-left: 5%;
+    padding-bottom: 50px;
+    width: 95%;
+    height: 500px
+}
+
 #about-us-background {
     background: fixed;
     background-position: center;
