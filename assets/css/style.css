@@ -155,12 +155,8 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-}
-
-#cover-text h1 {
     font-size: 350%;
 }
-
 
 .services {
     width: 100%;
@@ -320,7 +316,6 @@ main {
     margin-top: 350px;
     padding: 25px;
     width: 80%;
-    height: xxx;
     overflow: hidden;
     background: #cfcccc;
     color: #48688d;
@@ -333,7 +328,6 @@ main {
     margin-top: 190px;
     padding: 25px;
     width: 80%;
-    height: xxx;
     overflow: hidden;
     background: #a0b1c1;
     color: black;
@@ -346,7 +340,6 @@ main {
     margin-top: 190px;
     padding: 25px;
     width: 80%;
-    height: xxx;
     overflow: hidden;
     background: #48688d;
     color: #cfcccc;
