@@ -19,6 +19,7 @@ body {
     /* Generic project styles */
     color: #48688d;
     font-family: 'Cambay', sans-serif;
+    width: 100%;
 }
 
 h1,
@@ -155,13 +156,15 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 350%;
+    align-self: center;
 }
 
 .services {
     width: 100%;
     text-align: start;
-    color: #cfcccc;
+    color: white;
     padding: 20px 10px 20px 10px;
     background-color: #48688d;
     opacity: .9;
@@ -211,7 +214,7 @@ main {
 
 .flip-card-front {
     padding-top: 50px;
-    background-color: #cfcccc;
+    background-color: white;
     color: #48688d;
     border-color: #48688d;
     box-shadow: 5px 5px #48688d;
@@ -263,7 +266,7 @@ main {
 .flip-card-front1 {
     padding-top: 50px;
     background-color: #48688d;
-    color: #cfcccc;
+    color: white;
     border-color: #cfcccc;
     box-shadow: 5px 5px #cfcccc;
     opacity: .85;
@@ -282,7 +285,7 @@ main {
     padding-top: 60px;
     padding-left: 5%;
     padding-bottom: 50px;
-    width: 95%;
+    width: 90%;
     height: 500px
 }
 
@@ -303,7 +306,7 @@ main {
 .about-us {
     font-size: 300%;
     background-color: #48688d;
-    color: #cfcccc;
+    color: white;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -342,7 +345,7 @@ main {
     width: 80%;
     overflow: hidden;
     background: #48688d;
-    color: #cfcccc;
+    color: white;
     margin-bottom: 350px;
     border: 2px #cfcccc;
     margin-left: 10%;
@@ -383,7 +386,7 @@ main {
 .contact-us {
     font-size: 300%;
     background-color: #48688d;
-    color: #cfcccc;
+    color: white;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -415,7 +418,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #48688d;
-    color: #cfcccc;
+    color: white;
 }
 
 footer {
@@ -425,10 +428,11 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: #48688d;
+    width: 100%;
 }
 
 footer h4 {
-    color: #cfcccc;
+    color: white;
     font-size: medium;
 }
 
