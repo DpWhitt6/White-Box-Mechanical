@@ -38,7 +38,7 @@ h1 strong {
 
 p {
     padding-top: 5px;
-    font-size: medium;
+    font-size: large;
 }
 
 #hidden{
@@ -137,7 +137,7 @@ main {
 #background-index {
     height: auto;
     background: fixed;
-    background-image: url("../images/Crane-lift-supervised-altered-3.jpg");
+    background-image: url("../images/Crane-lift-supervised-altered-3.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200vh;
@@ -162,12 +162,15 @@ main {
 }
 
 .services {
-    width: 100%;
-    text-align: start;
-    color: white;
-    padding: 20px 10px 20px 10px;
-    background-color: #48688d;
-    opacity: .9;
+    margin-top: 150px;
+    padding: 25px;
+    width: 80%;
+    overflow: hidden;
+    background: #48688d;
+    color: #cfcccc;
+    border: 2px #48688d;
+    margin-left: 10%;
+    box-shadow: 5px 5px #cfcccc;
 }
 
 #services-multi {
@@ -175,7 +178,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 300px 70px 50px 70px;
+    padding: 100px 70px 50px 70px;
     justify-content: center;
 }
 
@@ -224,7 +227,7 @@ main {
 .flip-card-back {
     padding: 25px;
     background-color: #48688d;
-    color: #cfcccc;
+    color: white;
     transform: rotateY(180deg);
     border-color: #cfcccc;
     box-shadow: 5px 5px #cfcccc;
@@ -298,7 +301,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(../images/IMG-7085-altered.jpg);
+    background-image: url(../images/IMG-7085-altered.avif);
     background-size: 75vh;
     background-color: #48688d;
 }
@@ -366,7 +369,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(../images/contact-us-image.jpg);
+    background-image: url(../images/contact-us-image.avif);
     background-size: 200vh;
     background-color: #48688d;
     opacity: 0.8;
