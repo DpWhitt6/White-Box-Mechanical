@@ -4,7 +4,6 @@ This website has been created as part of a marketing stratergy for a mechanical 
 ![Responsive screenshot](https://github.com/user-attachments/assets/5737503a-c634-4c33-b6b3-667435fb56e0)
 
 ## Features
-<a name="features"></a>
 Throughout this website the focus has been to be consistent in styling and ensure the application is users experience is that of ease and familiarity as they navigate from page to page. This has been achieved via:  
 
 |Features|Photo|
@@ -26,7 +25,6 @@ Throughout this website the focus has been to be consistent in styling and ensur
 |Features to be added| Interactive map - Project specific page: Showcasing numerous projects - potential slideshow style set up - TBC|
 
 ## Testing
-<a name="Testing"></a>
 
 |Manual Testing platform| Outcome|
 |--|--|
@@ -85,13 +83,12 @@ Throughout this website the focus has been to be consistent in styling and ensur
 ## Bugs
 |Bugs | Solution|
 |--|--|
-|||
+|To be completed|Assitance required|
 |--|--|
 
 |Unfixed Bugs ||
 |--|--|
-|||
-|--|--|
+|No unfixed bugs|N/A|
 
 
 ## Git Hub - Deployment
