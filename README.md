@@ -1,10 +1,6 @@
 # White Box Mechanical (WBM)
 This website has been created as part of a marketing stratergy for a mechanical installation company based out of Gloucester, UK. The purpose of this website is to provide potential new clients with a opportunity to engage with White Box Mechanical enabling them to offer their services to wider berth outside of those currently engaged with the contractor. The desired clientele would be tier 1-3 main contractors or commerical landlords/ architects whom are interested in either alterations or new installations of HVAC/ mechanical units By having a website it also allows existing clients to have a focal point when recommending WBM to others or when presenting proposals to their potential clients/ as part of a background check for the end users; having an attractive, informative and user friendly website provides any and all clients with a good experience encouraging them to engage directly with WBM. 
 
-## Links
-[Live Site](https://dpwhitt6.github.io/White-Box-Mechanical/)
-[Repository](https://github.com/DpWhitt6/White-Box-Mechanical)
-
 ![Responsive screenshot](https://github.com/user-attachments/assets/5737503a-c634-4c33-b6b3-667435fb56e0)
 
 ## Features
@@ -86,5 +82,44 @@ Throughout this website the focus has been to be consistent in styling and ensur
 |SEO|![SEO](https://github.com/user-attachments/assets/984b931a-5845-45b6-b802-bdc9e776dc50)|
 |--|--|
 
+## Bugs
+|Bugs | Solution|
+|--|--|
+|||
+|--|--|
+
+|Unfixed Bugs ||
+|--|--|
+|||
+|--|--|
+
+
 ## Git Hub - Deployment
-1. In Git Hub 
+1. [Repository](https://github.com/DpWhitt6/White-Box-Mechanical)
+2. Settings Tab
+3. Source: Select Master Branch
+4. Open link - this is the live website.
+5. [Live Site](https://dpwhitt6.github.io/White-Box-Mechanical/)
+
+## Credits
+
+### Content
+|Content | Credit |
+|--|--|
+|Descriptions| Client supplied|
+|--|--|
+|Flip Card| [w3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)|
+|--|--|
+|Parallax Scrolling| [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)|
+|--|--|
+|Submission Form/Footer links| Love Running project|
+|--|--|
+
+
+
+### Media
+|Images| Source|
+|--|--|
+|All images| Client Provided|
+
+
