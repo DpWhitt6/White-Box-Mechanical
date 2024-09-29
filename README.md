@@ -4,7 +4,7 @@ This website has been created as part of a marketing stratergy for a mechanical 
 ## Link to live site
 https://dpwhitt6.github.io/White-Box-Mechanical/ 
 
-![Responsice Mockup] (https://github.com/DpWhitt6/White-Box-Mechanical/blob/main/Media/Responsive%20screenshot.jpg?raw=true)
+![Responsive screenshot](https://github.com/user-attachments/assets/5737503a-c634-4c33-b6b3-667435fb56e0)
 
 ### Existing Features
 
