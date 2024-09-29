@@ -1,10 +1,10 @@
 # White Box Mechanical (WBM)
-This website has been created as part of a marketing stratergy for a mechanical installation company based out of Gloucester, UK. The purpose of this website is to provide potential new clients with a opportunity to engage with White Box Mechanical enabling them to offer their services to wider berth outside of those currently engaged with the contractor. The desired clientele would be tier 1-3 main contractors or commerical landlords/ architects whom are interested in either alterations or new installations of HVAC/ mechanical units By having a website it also allows existing clients to have a focal point when recommending WBM to others or when presenting proposals to their potential clients/ as part of a background check for the end users; having an attractive, informative and user friendly website provides any and all clients with a good experience encouraging them to engage directly with WBM. 
+This website has been created as part of a marketing stratergy for a mechanical installation company based out of Gloucester, UK. The purpose of this website is to provide potential new clients with a opportunity to engage with White Box Mechanical (WBM) enabling them to offer their services to wider berth outside of those currently engaged with the contractor. The desired clientele would be tier 1-3 main contractors or commerical landlords/ architects who are interested in either alterations or new installations of HVAC/ mechanical units. By having a website it also allows existing clients to have a focal point when recommending WBM to others, when presenting proposals to their potential clients and as part of a background check for the end users. Having an attractive, informative and user friendly website provides any and all clients with a good experience encouraging them to engage directly with WBM. 
 
 ![Responsive screenshot](https://github.com/user-attachments/assets/5737503a-c634-4c33-b6b3-667435fb56e0)
 
 ## Features
-Throughout this website the focus has been to be consistent in styling and ensure the application is users experience is that of ease and familiarity as they navigate from page to page. This has been achieved via:  
+Throughout this website the focus has been on being consistent in styling and ensuring the users experience is that of ease and familiarity as they navigate from page to page. This has been achieved via:  
 
 |Features|Photo|
 |--|--|
@@ -83,7 +83,7 @@ Throughout this website the focus has been to be consistent in styling and ensur
 ## Bugs
 |Bugs | Solution|
 |--|--|
-|To be completed|Assitance required|
+|Video Location not consistently centered -Code added (sourced from stack overflow)|![Stack over flow - Video](https://github.com/user-attachments/assets/ad609c0e-1c0d-46f0-9f2d-2b6c569dee67)|
 |--|--|
 
 |Unfixed Bugs ||
@@ -110,6 +110,8 @@ Throughout this website the focus has been to be consistent in styling and ensur
 |Parallax Scrolling| [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)|
 |--|--|
 |Submission Form/Footer links| Love Running project|
+|--|--|
+|Content centerlising | [Stack overflow](https://stackoverflow.com/questions/17508729/how-do-you-center-a-video-using-css)|
 |--|--|
 
 
