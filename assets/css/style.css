@@ -149,7 +149,7 @@ main {
 }
 
 #cover-text {
-    background-color: white;
+    background-color: #cfcccc;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -326,21 +326,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     background-image: url(../images/contact-us-image.avif);
-    background-size: 200vw;
+    background-size: 75vh;
     background-color: #48688d;
-    opacity: 0.8;
-}
-
-
-#form-color {
-    background-color: #48688d;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-self: center;
-    width: 200px;
-    height: 450px;
 }
 
 #contact-us-heading {
@@ -352,6 +339,17 @@ main {
     width: 100%;
     padding-top: 40px;
     padding-left: 10px;
+}
+
+#form-color {
+    background-color: #48688d;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 200px;
+    height: 450px;
 }
 
 #contact-us-submission {
@@ -382,13 +380,25 @@ main {
 }
 
 /*404*/
-#error-background{
-    height: auto;
+#background-error{
     background: fixed;
     background-image: url("../images/error.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: 100vw;
+    height: 800px;
+}
+
+.error {
+    margin-top: 150px;
+    padding: 25px;
+    width: 80%;
+    overflow: hidden;
+    background: #48688d;
+    color: #cfcccc;
+    border: 2px #48688d;
+    margin-left: 10%;
+    box-shadow: 5px 5px #cfcccc;
 }
 
 /*Footer*/
@@ -417,11 +427,15 @@ footer h4 {
         width: 200px;
         height: 300px;
     }
+
+    #background-error{
+        background-size: 250vw;
+        height: 800px;
+}
 }
 
 /*media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
-
 
     #menu {
         font-size: 150%;
@@ -435,6 +449,11 @@ footer h4 {
 
     #about-us-background {
         background-size: 105vh;
+    }
+
+    #contact-us {
+        background-size: 250vw;
+        height: 1300px;
     }
 }
 
@@ -453,6 +472,16 @@ footer h4 {
         display: block;
         margin: 0 auto;
     }
+
+    #background-error{
+        background-size: 150vw;
+        height: 1300px;
+}
+
+#contact-us-background {
+    background-size: 1100px;
+    height: 1100px;
+}
 
 }
 
@@ -473,9 +502,6 @@ footer h4 {
         background-size: 145vh;
     }
 
-    #contact-us {
-        background-size: 800px;
-    }
 
 }
 
@@ -496,7 +522,7 @@ footer h4 {
         background-size: 185vh;
     }
 
-    #contact-us {
+    #contact-us-background {
         background-size: 1000px;
     }
 }
