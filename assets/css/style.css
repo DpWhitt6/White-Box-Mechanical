@@ -133,10 +133,11 @@ main {
     align-content: space-between;
 }
 
+/*index.html*/
 #background-index {
     height: auto;
     background: fixed;
-    background-image: url("../images/Crane-lift-supervised-altered-3.avif");
+    background-image: url("../images/index.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200vh;
@@ -160,6 +161,7 @@ main {
     align-self: center;
 }
 
+/*index.html - Descriptive paragraph*/
 .services {
     margin-top: 150px;
     padding: 25px;
@@ -172,6 +174,7 @@ main {
     box-shadow: 5px 5px #cfcccc;
 }
 
+/*index.html - Flip Cards*/
 #services-multi {
     grid-gap: 50px;
     display: flex;
@@ -216,73 +219,29 @@ main {
 
 .flip-card-front {
     padding-top: 50px;
-    background-color: white;
-    color: #48688d;
-    border-color: #48688d;
-    box-shadow: 5px 5px #48688d;
     opacity: .85;
 }
 
 .flip-card-back {
     padding: 25px;
-    background-color: #48688d;
-    color: white;
-    transform: rotateY(180deg);
-    border-color: #cfcccc;
-    box-shadow: 5px 5px #cfcccc;
-}
-
-.flip-card1 {
-    background-color: transparent;
-    width: 250px;
-    height: 250px;
-    perspective: 1000px;
-    border-radius: 25%;
-}
-
-.flip-card-inner1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    border-radius: 25%;
-}
-
-.flip-card1:hover .flip-card-inner1 {
     transform: rotateY(180deg);
 }
 
-.flip-card-front1,
-.flip-card-back1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 25%;
-    border: 2px solid;
-}
-
-.flip-card-front1 {
-    padding-top: 50px;
-    background-color: #48688d;
-    color: white;
-    border-color: #cfcccc;
-    box-shadow: 5px 5px #cfcccc;
-    opacity: .85;
-}
-
-.flip-card-back1 {
-    padding: 25px;
+#light {
     background-color: white;
     color: #48688d;
-    transform: rotateY(180deg);
     border-color: #48688d;
     box-shadow: 5px 5px #48688d;
 }
 
+#dark {
+    background-color: #48688d;
+    color: white;
+    border-color: #cfcccc;
+    box-shadow: 5px 5px #cfcccc;
+}
+
+/*index.html - Design walkthrough video*/
 .video {
     padding-top: 60px;
     padding-left: 5%;
@@ -291,6 +250,7 @@ main {
     height: 500px
 }
 
+/*about-us.html*/
 #about-us-background {
     background: fixed;
     background-position: center;
@@ -300,7 +260,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(../images/IMG-7085-altered.avif);
+    background-image: url(../images/about-us.avif);
     background-size: 75vh;
     background-color: #48688d;
 }
@@ -317,50 +277,45 @@ main {
     padding-left: 10px;
 }
 
-.info-1 {
-    margin-top: 350px;
+/*Paragraphed information*/
+.decsriptive-text {
     padding: 25px;
     width: 80%;
     overflow: hidden;
-    background: #cfcccc;
-    color: #48688d;
-    border: 2px #48688d;
     margin-left: 10%;
-    box-shadow: 5px 5px #48688d;
 }
 
-.info-2 {
-    margin-top: 190px;
-    padding: 25px;
-    width: 80%;
-    overflow: hidden;
-    background: #a0b1c1;
-    color: black;
-    border: 2px black;
-    margin-left: 10%;
-    box-shadow: 5px 5px black;
-}
-
-.info-3 {
-    margin-top: 190px;
-    padding: 25px;
-    width: 80%;
-    overflow: hidden;
-    background: #48688d;
-    color: white;
-    margin-bottom: 350px;
-    border: 2px #cfcccc;
-    margin-left: 10%;
-    box-shadow: 5px 5px #cfcccc;
-}
-
-.info-1 h2,
-.info-2 h2,
-.info-3 h2 {
+.decsriptive-text h2 {
     font-size: 125%;
     font-weight: bolder;
 }
 
+#who-are-we {
+    margin-top: 350px;
+    background: #cfcccc;
+    color: #48688d;
+    border: 2px #48688d;
+    box-shadow: 5px 5px #48688d;
+}
+
+#what-do-we-do {
+    margin-top: 190px;
+    background: #a0b1c1;
+    color: black;
+    border: 2px black;
+    box-shadow: 5px 5px black;
+}
+
+#why-us {
+    margin-top: 190px;
+    background: #48688d;
+    color: white;
+    margin-bottom: 350px;
+    border: 2px #cfcccc;
+    box-shadow: 5px 5px #cfcccc;
+}
+
+/*contact-us.html*/
 #contact-us-background {
     background: fixed;
     background-position: center;
@@ -376,7 +331,8 @@ main {
     opacity: 0.8;
 }
 
-#color {
+
+#form-color {
     background-color: #48688d;
     opacity: 0.8;
     display: flex;
@@ -387,7 +343,7 @@ main {
     height: 450px;
 }
 
-.contact-us {
+#contact-us-heading {
     font-size: 300%;
     background-color: #48688d;
     color: white;
@@ -398,10 +354,10 @@ main {
     padding-left: 10px;
 }
 
-#contact-us {
+#contact-us-submission {
     color: #cfcccc;
     width: 100%;
-    height: 400px;
+    height: 550px;
     margin: 5px 0 20px 0;
     border-radius: 2px;
     padding: 10px 0px 50px 0px;
@@ -415,7 +371,8 @@ main {
     padding-bottom: 50px;
 }
 
-.join-button {
+
+.submission-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -424,6 +381,17 @@ main {
     color: white;
 }
 
+/*404*/
+#error-background{
+    height: auto;
+    background: fixed;
+    background-image: url("../images/error.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
+
+/*Footer*/
 footer {
     text-align: center;
     padding: 20px 0;
@@ -437,6 +405,18 @@ footer {
 footer h4 {
     color: white;
     font-size: medium;
+}
+
+/*media query: large or landscape phones (576px and up)*/
+@media screen and (max-width: 575px) {
+    #cover-text {
+        font-size: 350%;
+    }
+
+    .flip-card {
+        width: 200px;
+        height: 300px;
+    }
 }
 
 /*media query: large or landscape phones (576px and up)*/
