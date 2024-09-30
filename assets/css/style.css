@@ -148,7 +148,7 @@ main {
 }
 
 #cover-text {
-    background-color: #cfcccc;
+    background-color: white;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -156,7 +156,7 @@ main {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 350%;
+    font-size: 450%;
     align-self: center;
 }
 
