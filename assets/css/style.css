@@ -136,14 +136,19 @@ main {
 /*index.html*/
 .background {
     background: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #48688d;
+    background-size: cover;
+    position: relative;
+}
+
+#index-photo {
+    background-image: url(../images/index-unit-being-craned-in-v1.avif);
+    background-position: 0 -25%;
 }
 
 #heading {
@@ -151,36 +156,39 @@ main {
     width: 100%;
 }
 
-#cover-text {
+.cover-text {
     background-color: #cfcccc;
-    opacity: 0.8;
+    opacity: 0.9;
     bottom: 50px;
     width: 100%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 450%;
+    font-size: 350%;
     align-self: center;
 }
 
 /*index.html - Descriptive paragraph*/
 
-#index-information{
+#index-information {
     display: flex;
     flex-wrap: wrap;
     align-self: center;
     align-content: center;
+    justify-content: center;
 }
+
 .information-default {
     margin-top: 150px;
     padding: 25px;
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     background: #48688d;
     color: white;
     border: 2px #48688d;
     box-shadow: 5px 5px #cfcccc;
+    text-align: center;
 }
 
 /*index.html - Flip Cards*/
@@ -254,8 +262,8 @@ main {
 .video {
     padding-top: 60px;
     padding-bottom: 50px;
-    width: 90%;
-    height: 500px
+    width: 100%;
+    height: 550px;
 }
 
 /*about-us.html*/
@@ -271,6 +279,12 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
+
+#about-photo {
+    background-image: url(../images/about-us-unit-being-placed-v1.avif);
+    background-position: 0 50%;
+}
+
 
 /*Paragraphed information*/
 .decsriptive-text {
@@ -323,6 +337,11 @@ main {
     padding-left: 10px;
 }
 
+#contact-photo {
+    background-image: url(../images/contact-us-installed-v1.avif);
+    background-position: 0 0;
+}
+
 #form-color {
     background-color: #48688d;
     opacity: 0.8;
@@ -330,15 +349,15 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-self: center;
-    color: #cfcccc;
+    color: white;
     width: 200px;
-    height: 550px;
+    height: 450px;
     margin: 5px 0 20px 0;
-    border-radius: 2px;
     padding: 10px 0px 50px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: medium;
 }
 
 #message {
@@ -356,26 +375,12 @@ main {
 }
 
 /*404 and form complete*/
-#background-generic{
-    background: fixed;
-    background-image: url("../images/error.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 800px;
+#form-complete {
+    margin-bottom: 200px;
 }
 
-.generic {
-    margin-top: 150px;
-    padding: 25px;
-    width: 80%;
-    overflow: hidden;
-    background: #48688d;
-    color: #cfcccc;
-    border: 2px #48688d;
-    margin-left: 10%;
-    box-shadow: 5px 5px #cfcccc;
-    text-align: center;
+#generic-photo {
+    background-image: url(../images/generic-duct.avif);
 }
 
 /*Footer*/
@@ -420,9 +425,6 @@ footer h4 {
         font-size: 250%;
     }
 
-    #about-us-background {
-        background-size: 105vh;
-    }
 }
 
 
@@ -441,19 +443,10 @@ footer h4 {
         margin: 0 auto;
     }
 
-    #background-error{
-        background-size: 150vw;
-        height: 1300px;
-}
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    #background-index {
-        background-size: 200vw;
-    }
 
     #cover-text h1,
     .about-us,
@@ -461,28 +454,16 @@ footer h4 {
         font-size: 450%;
     }
 
-    #about-us-background {
-        background-size: 105vh;
-    }
 
 
 }
 
 @media screen and (min-width: 1200px) {
 
-
-    #background-index {
-        background-size: 120vw;
-    }
-
     #cover-text h1,
     .about-us,
     .contact-us {
         font-size: 400%;
-    }
-
-    #about-us-background {
-        background-size: 185vh;
     }
 
 }
