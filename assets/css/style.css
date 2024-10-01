@@ -318,16 +318,15 @@ main {
 /*contact-us.html*/
 #contact-us-background {
     background: fixed;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     background-image: url(../images/contact-us-image.avif);
-    background-size: 75vh;
     background-color: #48688d;
+    background-size: cover;
 }
 
 #contact-us-heading {
@@ -380,7 +379,7 @@ main {
 }
 
 /*404*/
-#background-error{
+#background-generic{
     background: fixed;
     background-image: url("../images/error.jpg");
     background-position: center;
@@ -389,7 +388,7 @@ main {
     height: 800px;
 }
 
-.error {
+.generic {
     margin-top: 150px;
     padding: 25px;
     width: 80%;
@@ -399,6 +398,7 @@ main {
     border: 2px #48688d;
     margin-left: 10%;
     box-shadow: 5px 5px #cfcccc;
+    text-align: center;
 }
 
 /*Footer*/
@@ -417,7 +417,7 @@ footer h4 {
     font-size: medium;
 }
 
-/*media query: large or landscape phones (576px and up)*/
+/*media query: smaller phones (575px and down)*/
 @media screen and (max-width: 575px) {
     #cover-text {
         font-size: 350%;
@@ -450,11 +450,6 @@ footer h4 {
     #about-us-background {
         background-size: 105vh;
     }
-
-    #contact-us {
-        background-size: 250vw;
-        height: 1300px;
-    }
 }
 
 
@@ -478,11 +473,6 @@ footer h4 {
         height: 1300px;
 }
 
-#contact-us-background {
-    background-size: 1100px;
-    height: 1100px;
-}
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -499,7 +489,7 @@ footer h4 {
     }
 
     #about-us-background {
-        background-size: 145vh;
+        background-size: 105vh;
     }
 
 
@@ -522,7 +512,4 @@ footer h4 {
         background-size: 185vh;
     }
 
-    #contact-us-background {
-        background-size: 1000px;
-    }
 }
