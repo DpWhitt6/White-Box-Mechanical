@@ -165,7 +165,7 @@ main {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 350%;
+    font-size: 300%;
     align-self: center;
 }
 
@@ -259,11 +259,15 @@ main {
 }
 
 /*index.html - Design walkthrough video*/
+#video-size{
+    display: block;
+    margin: 0 auto;
+}
 .video {
     padding-top: 60px;
     padding-bottom: 50px;
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 
 /*about-us.html*/
@@ -401,8 +405,8 @@ footer h4 {
 
 /*media query: smaller phones (575px and down)*/
 @media screen and (max-width: 575px) {
-    #cover-text {
-        font-size: 350%;
+    .cover-text {
+        font-size: 300%;
     }
 
     .flip-card {
@@ -414,15 +418,8 @@ footer h4 {
 
 /*media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
-
-    #menu {
-        font-size: 150%;
-    }
-
-    #cover-text h1,
-    .about-us,
-    .contact-us {
-        font-size: 250%;
+    .cover-text {
+        font-size: 400%;
     }
 
 }
@@ -430,40 +427,24 @@ footer h4 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-    #cover-text h1,
-    .about-us,
-    .contact-us {
-        font-size: 300%;
+    .cover-text {
+        font-size: 450%;
     }
-
-    .video {
-        width: 800px;
-        display: block;
-        margin: 0 auto;
-    }
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    #cover-text h1,
-    .about-us,
-    .contact-us {
-        font-size: 450%;
+    .cover-text {
+        font-size: 500%;
     }
-
-
-
+    .video {
+        height: 650px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
-    #cover-text h1,
-    .about-us,
-    .contact-us {
-        font-size: 400%;
+    .cover-text {
+        font-size: 550%;
     }
 
 }
