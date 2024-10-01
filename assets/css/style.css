@@ -383,7 +383,7 @@ main {
 }
 
 /*404 and form complete*/
-#form-complete {
+#form-complete, #lost {
     margin: 50px auto;
     padding: 25px;
     width: 80%;
