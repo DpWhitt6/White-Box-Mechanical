@@ -266,7 +266,7 @@ main {
 }
 
 .about-us {
-    font-size: 300%;
+    font-size: 450%;
     background-color: #48688d;
     color: white;
     opacity: 0.8;
@@ -318,19 +318,19 @@ main {
 /*contact-us.html*/
 #contact-us-background {
     background: fixed;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     background-image: url(../images/contact-us-image.avif);
     background-color: #48688d;
-    background-size: cover;
+    background-size: 100vw;
+    height: 1100px;
 }
 
 #contact-us-heading {
-    font-size: 300%;
+    font-size: 450%;
     background-color: #48688d;
     color: white;
     opacity: 0.8;
@@ -347,13 +347,8 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-self: center;
-    width: 200px;
-    height: 450px;
-}
-
-#contact-us-submission {
     color: #cfcccc;
-    width: 100%;
+    width: 200px;
     height: 550px;
     margin: 5px 0 20px 0;
     border-radius: 2px;
@@ -368,7 +363,6 @@ main {
     padding-bottom: 50px;
 }
 
-
 .submission-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -378,7 +372,7 @@ main {
     color: white;
 }
 
-/*404*/
+/*404 and form complete*/
 #background-generic{
     background: fixed;
     background-image: url("../images/error.jpg");
