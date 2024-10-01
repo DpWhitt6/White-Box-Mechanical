@@ -109,6 +109,7 @@ nav {
     box-shadow: 0 2px 2px#48688d;
     display: none;
     top: 100%;
+    font-size: 200%;
 }
 
 /* Nav toggle */
@@ -276,6 +277,7 @@ main {
     font-size: 450%;
     background-color: #48688d;
     color: white;
+    font-size: large;
     opacity: 0.8;
     bottom: 50px;
     width: 100%;
@@ -305,7 +307,7 @@ main {
 
 #who-are-we {
     margin-top: 350px;
-    background: #cfcccc;
+    background: white;
     color: #48688d;
     border: 2px #48688d;
     box-shadow: 5px 5px #48688d;
@@ -330,16 +332,19 @@ main {
 
 /*contact-us.html*/
 
-#contact-us-heading {
-    font-size: 450%;
-    background-color: #48688d;
+#contact-details {
+    margin-top: 50px;
+    padding: 25px;
+    width: 80%;
+    overflow: hidden;
+    background: #48688d;
     color: white;
-    opacity: 0.8;
-    bottom: 50px;
-    width: 100%;
-    padding-top: 40px;
-    padding-left: 10px;
-}
+    border: 2px #48688d;
+    box-shadow: 5px 5px #cfcccc;
+    text-align: center;
+    font-size: larger;
+} 
+
 
 #contact-photo {
     background-image: url(../images/contact-us-installed-v1.avif);
@@ -348,20 +353,19 @@ main {
 
 #form-color {
     background-color: #48688d;
-    opacity: 0.8;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-self: center;
     color: white;
     width: 200px;
-    height: 450px;
+    height: 500px;
     margin: 5px 0 20px 0;
     padding: 10px 0px 50px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: medium;
+    font-size: larger;
 }
 
 #message {
