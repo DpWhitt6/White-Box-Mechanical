@@ -28,7 +28,7 @@ h3 {
     font-family: 'Cambay', sans-serif;
     letter-spacing: 2px;
     font-weight: 100;
-    font-size: larger;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ h1 strong {
 
 p {
     padding-top: 5px;
-    font-size: large;
+    font-size: 100%;
 }
 
 #hidden {
@@ -260,10 +260,11 @@ main {
 }
 
 /*index.html - Design walkthrough video*/
-#video-size{
+#video-size {
     display: block;
     margin: 0 auto;
 }
+
 .video {
     padding-top: 60px;
     padding-bottom: 50px;
@@ -343,7 +344,7 @@ main {
     box-shadow: 5px 5px #cfcccc;
     text-align: center;
     font-size: larger;
-} 
+}
 
 
 #contact-photo {
@@ -395,6 +396,7 @@ main {
 
 #generic-photo {
     background-image: url(../images/generic-duct.avif);
+    background-position: 40% 0;
 }
 
 /*Footer*/
@@ -421,7 +423,17 @@ footer h4 {
 
     .flip-card {
         width: 200px;
-        height: 300px;
+        height: 250px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 100%;
     }
 
 }
@@ -431,24 +443,68 @@ footer h4 {
     .cover-text {
         font-size: 400%;
     }
-
 }
 
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    h1,
+    h2,
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .flip-card {
+        width: 350px;
+        height: 350px;
+    }
+
     .cover-text {
         font-size: 450%;
     }
+
+    footer h4 {
+        font-size: larger;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    h1,
+    h2,
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
     .cover-text {
         font-size: 500%;
     }
+
     .video {
         height: 650px;
+    }
+
+    #form-complete {
+        margin-bottom: 590px;
+    }
+
+    #lost {
+        margin-bottom: 590px;
+    }
+
+    footer h4 {
+        font-size: 200%;
     }
 }
 
@@ -457,4 +513,11 @@ footer h4 {
         font-size: 550%;
     }
 
+    #form-complete {
+        margin-bottom: 800px;
+    }
+
+    #lost {
+        margin-bottom: 800px;
+    }
 }
