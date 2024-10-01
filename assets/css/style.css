@@ -134,13 +134,16 @@ main {
 }
 
 /*index.html*/
-#background-index {
-    height: auto;
+.background {
     background: fixed;
-    background-image: url("../images/index.avif");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #48688d;
 }
 
 #heading {
@@ -162,15 +165,21 @@ main {
 }
 
 /*index.html - Descriptive paragraph*/
-.services {
+
+#index-information{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-content: center;
+}
+.information-default {
     margin-top: 150px;
     padding: 25px;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     background: #48688d;
-    color: #cfcccc;
+    color: white;
     border: 2px #48688d;
-    margin-left: 10%;
     box-shadow: 5px 5px #cfcccc;
 }
 
@@ -244,26 +253,12 @@ main {
 /*index.html - Design walkthrough video*/
 .video {
     padding-top: 60px;
-    padding-left: 5%;
     padding-bottom: 50px;
     width: 90%;
     height: 500px
 }
 
 /*about-us.html*/
-#about-us-background {
-    background: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url(../images/about-us.avif);
-    background-size: 75vh;
-    background-color: #48688d;
-}
 
 .about-us {
     font-size: 450%;
@@ -316,18 +311,6 @@ main {
 }
 
 /*contact-us.html*/
-#contact-us-background {
-    background: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url(../images/contact-us-image.avif);
-    background-color: #48688d;
-    background-size: 100vw;
-    height: 1100px;
-}
 
 #contact-us-heading {
     font-size: 450%;
@@ -422,10 +405,6 @@ footer h4 {
         height: 300px;
     }
 
-    #background-error{
-        background-size: 250vw;
-        height: 800px;
-}
 }
 
 /*media query: large or landscape phones (576px and up)*/
