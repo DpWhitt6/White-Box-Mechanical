@@ -384,7 +384,17 @@ main {
 
 /*404 and form complete*/
 #form-complete {
-    margin-bottom: 200px;
+    margin: 50px auto;
+    padding: 25px;
+    width: 80%;
+    overflow: hidden;
+    background: #48688d;
+    color: white;
+    border: 2px #48688d;
+    box-shadow: 5px 5px #cfcccc;
+    text-align: center;
+    font-size: larger;
+    display: block;
 }
 
 #generic-photo {
