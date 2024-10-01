@@ -333,7 +333,7 @@ main {
 /*contact-us.html*/
 
 #contact-details {
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 25px;
     width: 80%;
     overflow: hidden;
@@ -360,7 +360,7 @@ main {
     color: white;
     width: 200px;
     height: 500px;
-    margin: 5px 0 20px 0;
+    margin: 100px 0 20px 0;
     padding: 10px 0px 50px 0px;
     text-align: center;
     display: flex;
