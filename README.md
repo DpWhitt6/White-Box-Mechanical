@@ -92,8 +92,8 @@ The images used have been site photos taken for the purpose of showcasing the ca
 |About us -  Floating boxes with detailed information about WBM allow the user to engage with the story and philosphy of WBM.|![About us ](https://github.com/user-attachments/assets/4bca77d5-91c8-4039-aefa-bb5b6fd385ce)|
 |Contact us Form - To encourage the user to contact WBM and deatil a message of what they require from WBM.|![Contact form](https://github.com/user-attachments/assets/37f707f5-52d5-4cd6-8496-40c2feb616ae)|
 |Footer - With a physical address and link to social media. Allowing the user to keep up with the latest updates from WBM|![Footer](https://github.com/user-attachments/assets/973119fc-fcdc-46e8-9d7a-d2fddb419bcc)|
-|404 - Error page| Image to be inserted|
-|Form Submitted page| Image to be inserted|
+|404 - Error page|![404](https://github.com/user-attachments/assets/9c173dac-9f87-44fd-b618-b7d7726cf489)|
+|Form Submitted page| ![Form submitted](https://github.com/user-attachments/assets/9e4f158f-bc42-4bdf-8f58-46574b0ad9fa)|
 |Features to be added| Interactive map - Project specific page: Showcasing numerous projects - potential slideshow style set up - TBC|
 
 ### Accessibility:
@@ -179,7 +179,7 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 |Index|![Index](https://github.com/user-attachments/assets/e0f3da3b-02bf-4450-b4ea-edf9bbeeda91)|
 |About us|![About us](https://github.com/user-attachments/assets/12a714ca-8b99-40e4-b76f-76e496bc8860)|
 |Contact Us|![contact us](https://github.com/user-attachments/assets/2dfc5517-0679-4c97-9aff-714494088b93)|
-|Form Submitted||![form submitted](https://github.com/user-attachments/assets/aa3192ac-5593-4ece-b791-10b9721d4bf5)|
+|Form Submitted|![form submitted](https://github.com/user-attachments/assets/a230466f-217b-4193-9454-12462a4c95db)|
 |404|![404](https://github.com/user-attachments/assets/22fd5e55-97a6-4b92-9b3a-7d1c7900d1a0)|
 
 |Desktop||
@@ -208,6 +208,7 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 |Parallax Scrolling| [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)|
 |Submission Form/Footer links| Love Running project|
 |Content centerlising | [Stack overflow](https://stackoverflow.com/questions/17508729/how-do-you-center-a-video-using-css)|
+|Read me|[Kera-Cudmore](https://github.com/kera-cudmore/readme-examples))|
 
 ### Media
 |Images| Source|
