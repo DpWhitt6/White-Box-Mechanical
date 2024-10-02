@@ -391,7 +391,7 @@ main {
 
 /*404 and form complete*/
 #form-complete ,
-#layout-404 {
+#error-message {
     margin: 100px auto;
     display: block;
 }
