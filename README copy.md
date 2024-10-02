@@ -26,16 +26,13 @@ This website has been created as part of a marketing stratergy for a mechanical 
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
-  * [Manual Test] (#manual-test)
-  * [Vaildation Test] (#vaildation-test)
-  * [Auditing] (#auditing)
-  * [Bugs] (#bugs)
+  * [Manual Test](#manual-test)
+  * [Vaildation Test](#vaildation-test)
+  * [Auditing](#auditing)
+  * [Bugs](#bugs)
   
 * [Credits](#credits)
-  * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -121,9 +118,37 @@ HTML and CSS.
 * Am I Responsive? To show the website image on a range of devices.
 * Cloud convert - to reduce image size and change to AVIF format.
 
-### Deployment:
+## Deployment & Local Development
 
-### Local Development:
+### Deployment:
+The site is deployed using GitHub Pages. Visit the deployed site [White-Box-Mechanical](https://dpwhitt6.github.io/White-Box-Mechanical/) To deploy using GitHub pages:
+
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
+
+## Local Development:
+
+### How to Fork
+To fork the repository:
+
+Log in (or sign up) to Github.
+Go to the repository for this project, [White-Box-Mechanical](https://github.com/DpWhitt6/White-Box-Mechanical).
+Click the Fork button in the top right corner.
+
+### How to Clone
+To clone the repository:
+
+Log in (or sign up) to GitHub.
+Go to the repository for this project, [White-Box-Mechanical](https://github.com/DpWhitt6/White-Box-Mechanical).
+Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing:
 
@@ -154,23 +179,41 @@ HTML and CSS.
 |Index|![Index](https://github.com/user-attachments/assets/e0f3da3b-02bf-4450-b4ea-edf9bbeeda91)|
 |About us|![About us](https://github.com/user-attachments/assets/12a714ca-8b99-40e4-b76f-76e496bc8860)|
 |Contact Us|![contact us](https://github.com/user-attachments/assets/2dfc5517-0679-4c97-9aff-714494088b93)|
-|Form Submitted|![form submitted](https://github.com/user-attachments/assets/43313a69-c46a-4879-9cc7-74e0efee866d)|
-|404|![404](https://github.com/user-attachments/assets/8defec04-699b-4a3c-8d47-0e31819a9020)|
+|Form Submitted||![form submitted](https://github.com/user-attachments/assets/aa3192ac-5593-4ece-b791-10b9721d4bf5)|
+|404|![404](https://github.com/user-attachments/assets/22fd5e55-97a6-4b92-9b3a-7d1c7900d1a0)|
 
 |Desktop||
 |--|--|
 |Index|![Index](https://github.com/user-attachments/assets/bb92db72-b2a7-4f91-80a6-379d33fd1c96)|
 |About us|![about us](https://github.com/user-attachments/assets/e3a4139b-2bd2-41ef-9b45-497f16fa15c2)|
 |Contact Us|![contact us](https://github.com/user-attachments/assets/856a7733-f35c-4f61-a4f0-f27e9fbe42c5)|
-|Form Submitted|![form-submitted](https://github.com/user-attachments/assets/8b8aa837-48a2-470f-8fd7-0056aa6c7695)|
-|404|![404](https://github.com/user-attachments/assets/2f9c6c5e-6d8c-4873-815e-4a138cab81da)|
+|Form Submitted|![form-submitted](https://github.com/user-attachments/assets/500605a7-a71d-413f-b027-0590bb5aa13a)|
+|404|![404](https://github.com/user-attachments/assets/1a3aeb56-6d60-4041-8c61-244a3a408157)|
 
 ### Bugs:
-|||
+|BUGS| Solution|
 |--|--|
-|||
-|||
-|||
-|||
+|Index: repentive ID's:![Code error - multiple id's with  same name](https://github.com/user-attachments/assets/a68019ab-1fa3-4633-bbb0-6ad156cb8282)|![solution -code](https://github.com/user-attachments/assets/f8a725f8-a52f-4dd5-ab72-4a24a1b38d38)|
+|Index: Horizontal Scroll:![Ipad-mini-Horizontal scroll](https://github.com/user-attachments/assets/606ef137-d312-479d-be8f-ddcf5dcdc20d)|![Ipad-mini-Horizontal scroll-solution](https://github.com/user-attachments/assets/8e657b0a-849b-42d6-9661-cd368910e75b)|
+|Contact-us: Background image not filling screen:![Contact us - Content ](https://github.com/user-attachments/assets/c18eae23-1c0b-4197-a51c-322459216fb6)|Body height was set larger the content and another paragraph element has been added to assist with pushing the div to conceal the entire page|
+|Form submitted: Header AND alignment off ![header and alignment off](https://github.com/user-attachments/assets/933327ef-591f-4480-80c8-46850d892a29)|![block and margin](https://github.com/user-attachments/assets/b1ba24d8-ca3e-457e-8d98-080dd944bffb)|
+|Header issue (to the above)|id used not a class as required:![id not class](https://github.com/user-attachments/assets/66cb2721-145b-4d9d-b2ae-c0aed5b5dfee)|
+---
+## Credits:
+### Content
+|Content | Credit |
+|--|--|
+|Descriptions| Client supplied|
+|Flip Card| [w3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)|
+|Parallax Scrolling| [w3schools](https://www.w3schools.com/howto/howto_css_parallax.asp)|
+|Submission Form/Footer links| Love Running project|
+|Content centerlising | [Stack overflow](https://stackoverflow.com/questions/17508729/how-do-you-center-a-video-using-css)|
 
+### Media
+|Images| Source|
+|--|--|
+|All images| Client Provided|
+
+
+---
 
