@@ -390,15 +390,11 @@ main {
 }
 
 /*404 and form complete*/
-#form-complete ,
-#error-message {
+
+#form-complete{
     margin: 100px auto;
     display: block;
 }
-#error-message {
-    margin-bottom: 200px;
-}
-
 
 /*Footer*/
 footer {
