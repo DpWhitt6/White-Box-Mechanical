@@ -142,7 +142,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #48688d;
+    background-color: #a0b1c1;
     background-size: cover;
     position: relative;
 }
@@ -245,14 +245,20 @@ main {
     transform: rotateY(180deg);
 }
 
-#light , #light-1 , #light-2 , #light-3 {
+#light,
+#light-1,
+#light-2,
+#light-3 {
     background-color: white;
     color: #48688d;
     border-color: #48688d;
     box-shadow: 5px 5px #48688d;
 }
 
-#dark , #dark-1 , #dark-2 , #dark-3 {
+#dark,
+#dark-1,
+#dark-2,
+#dark-3 {
     background-color: #48688d;
     color: white;
     border-color: #cfcccc;
@@ -389,24 +395,6 @@ main {
     display: block;
 }
 
-#lost {
-    margin: 100px auto;
-    display: block;
-}
-
-#generic-photo {
-    background-image: url(../images/generic-duct.avif);
-    background-position: 40% 0;
-}
-
-#push-img{
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 300px;
-    padding-bottom: 100px;
-
-}
 
 /*Footer*/
 footer {
@@ -426,6 +414,7 @@ footer h4 {
 
 /*media query: smaller phones (575px and down)*/
 @media screen and (max-width: 575px) {
+    
     .cover-text {
         font-size: 300%;
     }
