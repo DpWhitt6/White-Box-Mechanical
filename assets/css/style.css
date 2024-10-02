@@ -395,6 +395,9 @@ main {
     margin: 100px auto;
     display: block;
 }
+#error-message {
+    margin-bottom: 200px;
+}
 
 
 /*Footer*/
