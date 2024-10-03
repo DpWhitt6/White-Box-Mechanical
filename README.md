@@ -86,6 +86,7 @@ The images used have been site photos taken for the purpose of showcasing the ca
 |Features|Photo|
 |--|--|
 |Navigation Bar - Featured on all three pages in an identical manner to ensure ease of use for the audience.|![Navigation bar](https://github.com/user-attachments/assets/68366bd9-e5a1-49ee-a15e-58c0c674bf3a)|
+|Logo| In order to improve the accessibility of teh webiste I have choosen not to have the logo linkable to the home page, this will assist the screen reader to navigate the page.|
 |Background Images - All images have been chosen to represent differing stages of the installtion process in relation to a commercial installation. This showcases the capabilities of WBM. The images have been fixed to allow all the content to have a floating effect when scrolling through each page.|![Background image](https://github.com/user-attachments/assets/a81254cf-7e3d-4fb6-8bef-8a241ce83be7)|
 |Flip boxes - An interative box to allow the user to engage with the index page without being over powered by information. This gives the user a basic understanding of what services are provided by WBM and allows the user to explore each in more detail at there disgression.|![Flip Boxes](https://github.com/user-attachments/assets/3169446c-2812-4e6d-aa1c-0f3a1d86dee3)|
 |Design walk through video - Added to show the design capabilities on offer, providing an indication as to the level of service capable by WBM.|![Index video](https://github.com/user-attachments/assets/d4300378-bf70-40e9-8d78-6b17e43889a2)|
