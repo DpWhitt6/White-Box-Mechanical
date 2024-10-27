@@ -81,6 +81,7 @@ header a {
     list-style-type: none;
     display: inline-block;
     width: 100%;
+    z-index: 99;
 }
 
 #menu>li {
